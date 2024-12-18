@@ -1,0 +1,134 @@
+*  {
+
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', serif;
+    
+
+}
+
+body {
+    display: grid;
+    background-color: rgb(52, 61, 78);
+}
+
+#about{
+    
+    background-color: rgba(122, 174, 225, 0.554);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+@media (max-width: 800px) {
+	#about {
+		display: flex;
+		flex-wrap: wrap;
+        flex-direction: column;
+	}
+}
+
+ .header h1 {
+    padding: 25px;
+    font-family: "Leckerli One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(42, 155, 203);
+    border: 4px silver ;
+    box-shadow: 0  25px 35px rgb(15, 133, 183);
+    backdrop-filter: blur(8px);
+ } 
+
+
+
+.col-8 h3 {
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 15px;
+    background-color: rgba(195, 205, 215, 0.5);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+.col-8 p {
+    background-color: rgba(195, 205, 215, 0.5);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+
+}
+
+h4.card-title{
+
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+p.card-text, .card-body{
+
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  
+}
+
+
+
+#sidebar {
+    color: white;
+    font-family: cursive;
+    align-content: center;
+    justify-items: center;
+    background-image: url('images/snowy_woods.jpg');
+    background-size: cover;
+    margin: 15px;
+    padding: 15px;
+    
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+    
+}
+
+.featurette, .card  {
+ 
+
+
+   font-family: "Dancing Script", cursive;
+   font-optical-sizing: auto;
+   font-weight: 600;
+   font-style: normal;
+
+    text-align: center;
+    margin: 25px;
+    padding: 10px;
+    border: 4px silver ;
+    background-color:  rgba(195, 205, 215, 0.5);
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+    border-radius: 20px;
+}
+
+
+footer {
+    
+    padding: 15px;
+    background-color: rgba(97, 183, 110, 0.379);
+    align-self: center;
+    text-align: center;
+    border: 4px silver ;
+    box-shadow: 0  5px 25px rgb(15, 133, 183) ;
+}
+
+footer.row {
+    align-items: center;
+}
